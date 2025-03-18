@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<!-- Body :selector--> 
+
+<body>
+    <h1>Buku Tamu</h1>
+    <table>
+        <form name="formData">
+        <tr>
+            <td>Nama Lengkap</td>
+            <td>:</td>
+            <td>
+                <input type="text" name="txtName" size="50">
+            </td>
+        </tr>
+        <tr>
+            <td>Alaamat</td>
+            <td>:</td>
+                <input type="text" name="txtAddress" size="80">
+            <td></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+                <input type="radio" name ="rbJK" value="Pria" checked> Pria
+                <input type="radio" name ="rbJK" value="Wanita"> Wanita
+            <td></td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td>
+                <select name="Agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Katolik">Katolik</option>
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="chkHobi" value="Sport"> Sport<br>
+                <input type="checkbox" name="chkHobi" value="Sport"> Entertainment<br>
+                <input type="checkbox" name="chkHobi" value="Sport"> Music<br>
+                <input type="checkbox" name="chkHobi" value="Sport"> Vacation<br>
+                <input type="checkbox" name="chkHobi" value="Sport"> Shopping<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Komentar</td>
+            <td>:</td>
+            <td>
+                <textarea name="txtComment" cols="50" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr class="rows-button-form">
+            <td colspan="3" class="button-form">
+            <button type="submit">kirim</button>
+            <button type="reset">batal</button>
+            </td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
